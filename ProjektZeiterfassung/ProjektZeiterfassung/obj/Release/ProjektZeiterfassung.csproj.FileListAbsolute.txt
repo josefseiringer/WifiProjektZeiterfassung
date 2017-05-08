@@ -1,0 +1,5 @@
+C:\Users\digitalman\Documents\Visual Studio 2015\Projects\ProjektZeiterfassung\ProjektZeiterfassung\bin\Release\ProjektZeiterfassung.exe.config
+C:\Users\digitalman\Documents\Visual Studio 2015\Projects\ProjektZeiterfassung\ProjektZeiterfassung\obj\Release\ProjektZeiterfassung.Properties.Resources.resources
+C:\Users\digitalman\Documents\Visual Studio 2015\Projects\ProjektZeiterfassung\ProjektZeiterfassung\obj\Release\ProjektZeiterfassung.View.DatenbankEinstellen.resources
+C:\Users\digitalman\Documents\Visual Studio 2015\Projects\ProjektZeiterfassung\ProjektZeiterfassung\obj\Release\ProjektZeiterfassung.View.Mainpanel.resources
+C:\Users\digitalman\Documents\Visual Studio 2015\Projects\ProjektZeiterfassung\ProjektZeiterfassung\obj\Release\ProjektZeiterfassung.csproj.GenerateResource.Cache

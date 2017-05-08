@@ -1,0 +1,460 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ProjektZeiterfassung</name>
+    </assembly>
+    <members>
+        <member name="T:ProjektZeiterfassung.Model.Datenbankverbindung">
+            <summary>
+            Stellt eine Klasse für die Datenbankverbindung bereit
+            </summary>
+        </member>
+        <member name="F:ProjektZeiterfassung.Model.Datenbankverbindung._Datenbankname">
+            <summary>
+            Internes Hilfsfeld
+            </summary>
+        </member>
+        <member name="P:ProjektZeiterfassung.Model.Datenbankverbindung.Datenbankname">
+            <summary>
+            Stellt eine Eigenschaft für den Datenbanknamen bereit
+            </summary>
+        </member>
+        <member name="F:ProjektZeiterfassung.Model.Datenbankverbindung._SqlServerAdresse">
+            <summary>
+            Internes Hilfsfeld
+            </summary>
+        </member>
+        <member name="P:ProjektZeiterfassung.Model.Datenbankverbindung.SqlServerAdresse">
+            <summary>
+            Stellt die Eigenschaft von der SqlServerAdresse bereit
+            </summary>
+        </member>
+        <member name="F:ProjektZeiterfassung.Model.Datenbankverbindung._DbConnection">
+            <summary>
+            Internes Hilfsfeld
+            </summary>
+        </member>
+        <member name="P:ProjektZeiterfassung.Model.Datenbankverbindung.DbConnection">
+            <summary>
+            Stellt eine Eigenschaft für die DBConnection bereit
+            </summary>
+        </member>
+        <member name="M:ProjektZeiterfassung.Model.Datenbankverbindung.#ctor">
+            <summary>
+            Konstruktor in dem aus den Einstellungen des Projekts die Datenbankverbindungsdaten geholt werden
+            </summary>
+        </member>
+        <member name="M:ProjektZeiterfassung.Model.Datenbankverbindung.Con">
+            <summary>
+            Methode welche den Connection String zur Datenbankverbindung herrstellt
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:ProjektZeiterfassung.Model.ListeMitarbeiter">
+            <summary>
+            Stellt eine Klasse für Liste von Mitarbeitern zur Verfügung 
+            </summary>
+        </member>
+        <member name="T:ProjektZeiterfassung.Model.Mitarbeiter">
+            <summary>
+            Klasse Stellt die Eigenschaften für das Mitarbeiter Objekt bereit
+            </summary>
+        </member>
+        <member name="F:ProjektZeiterfassung.Model.Mitarbeiter._ID">
+            <summary>
+            Internes Hilfsfeld für Id
+            </summary>
+        </member>
+        <member name="P:ProjektZeiterfassung.Model.Mitarbeiter.ID">
+            <summary>
+            Eigenschaft für Id von Mitarbeiter
+            </summary>
+        </member>
+        <member name="F:ProjektZeiterfassung.Model.Mitarbeiter._Personalnummer">
+            <summary>
+            Internes Hilfsfeld
+            </summary>
+        </member>
+        <member name="P:ProjektZeiterfassung.Model.Mitarbeiter.Personalnummer">
+            <summary>
+            Eigenschaft für Personalnummer von Mitarbeiter
+            </summary>
+        </member>
+        <member name="F:ProjektZeiterfassung.Model.Mitarbeiter._EintrittsDatum">
+            <summary>
+            Internes Hilfsfeld
+            </summary>
+        </member>
+        <member name="P:ProjektZeiterfassung.Model.Mitarbeiter.EintrittsDatum">
+            <summary>
+            Stellt eine Eigenschaft für Eintrittsdatum von Mitarbeiter bereit
+            </summary>
+        </member>
+        <member name="F:ProjektZeiterfassung.Model.Mitarbeiter._Vorname">
+            <summary>
+            Internes Hilfsfeld
+            </summary>
+        </member>
+        <member name="P:ProjektZeiterfassung.Model.Mitarbeiter.Vorname">
+            <summary>
+            Stellt eine Eigenschaft für den Vornamen von Mitarbeiter bereit
+            </summary>
+        </member>
+        <member name="F:ProjektZeiterfassung.Model.Mitarbeiter._Nachname">
+            <summary>
+            Internes Hilfsfeld
+            </summary>
+        </member>
+        <member name="P:ProjektZeiterfassung.Model.Mitarbeiter.Nachname">
+            <summary>
+            Stellt eine Eigenschaft für Nachname von Mitarbeiter bereit
+            </summary>
+        </member>
+        <member name="F:ProjektZeiterfassung.Model.Mitarbeiter._TagesSollZeit">
+            <summary>
+            Internes Hilfsfeld
+            </summary>
+        </member>
+        <member name="P:ProjektZeiterfassung.Model.Mitarbeiter.TagesSollZeit">
+            <summary>
+            Stellt eine Eigenschaft für Tagessollzeit von Mitarbeiter bereit 
+            </summary>
+        </member>
+        <member name="F:ProjektZeiterfassung.Model.Mitarbeiter._IstAktiv">
+            <summary>
+            Internes Hilfsfeld
+            </summary>
+        </member>
+        <member name="P:ProjektZeiterfassung.Model.Mitarbeiter.IstAktiv">
+            <summary>
+            Stellt eine Eigenschaft für IstAktiv von Mitarbeiter bereit
+            </summary>
+        </member>
+        <member name="T:ProjektZeiterfassung.Model.SetDbVerbindung">
+            <summary>
+            Stellt eine Klasse zum speichern der Datenbankzugriffseinstellungen bereit
+            </summary>
+        </member>
+        <member name="P:ProjektZeiterfassung.Model.SetDbVerbindung.DbVerbindungNichtErfolgreich">
+            <summary>
+            Stellt eine Eigenschaft bereit die schluß darauf 
+            zuläst das die Datenbankverbindung nicht erfolgreich war
+            </summary>
+        </member>
+        <member name="P:ProjektZeiterfassung.Model.SetDbVerbindung.Rueckmeldung">
+            <summary>
+            Stellt eine Eigenschaft für die Rückmeldung ob Verbindung zur neu angelegten 
+            Datenbankverbindung bereit
+            </summary>
+        </member>
+        <member name="P:ProjektZeiterfassung.Model.SetDbVerbindung.ConStringSpezial">
+            <summary>
+            Stellt eine Eigenschaft von ConStringSpezial für die SQL-Authentifizierung bereit
+            </summary>
+        </member>
+        <member name="P:ProjektZeiterfassung.Model.SetDbVerbindung.ConStringNormal">
+            <summary>
+            Stellt eine Eigenschaft von ConStringNormal für die Integrierte Authentifizierung bereit
+            </summary>
+        </member>
+        <member name="P:ProjektZeiterfassung.Model.SetDbVerbindung.Passwort">
+            <summary>
+            Stellt die Eigenschaft Passwort für die SQL-Authentifizierung bereit
+            </summary>
+        </member>
+        <member name="P:ProjektZeiterfassung.Model.SetDbVerbindung.Benutzername">
+            <summary>
+            Stellt eine Eigenschaft von Benutzername bei für SQl-Authentifizierung bereit
+            </summary>
+        </member>
+        <member name="P:ProjektZeiterfassung.Model.SetDbVerbindung.Entscheidung">
+            <summary>
+            Stellt eine Eigenschaft von Entscheidung bereit
+            </summary>
+        </member>
+        <member name="P:ProjektZeiterfassung.Model.SetDbVerbindung.IntegratedSecurity">
+            <summary>
+            Stellt eine schreibgeschützte Eigenschaft von IntegratedSecurity bereit 
+            </summary>
+        </member>
+        <member name="P:ProjektZeiterfassung.Model.SetDbVerbindung.InitialCatalog">
+            <summary>
+            Stellt eine schreibgeschützte Eigenschaft von InitialCatalog bereit
+            </summary>
+        </member>
+        <member name="P:ProjektZeiterfassung.Model.SetDbVerbindung.DataSource">
+            <summary>
+            Stellt eine Eigenschaft von DataSource bereit
+            </summary>
+        </member>
+        <member name="M:ProjektZeiterfassung.Model.SetDbVerbindung.SchreibeConfiguration(ProjektZeiterfassung.Model.SetDbVerbindung)">
+            <summary>
+            Methode schreibt die aktuellen Db-Einstellungen in die Configurationsdatei der Anwendung
+            </summary>
+            <param name="p">Object von SetDbVerbindung</param>
+        </member>
+        <member name="T:ProjektZeiterfassung.Model.UebersichtsListe">
+            <summary>
+            Stellt die Klasse für eine Übersichtsliste bereit
+            </summary>
+        </member>
+        <member name="T:ProjektZeiterfassung.Model.Uebersicht">
+            <summary>
+            Klasse für ein Objekt der Übersichtsansicht aus Mitarbeiter und Zeiterfassung
+            </summary>
+        </member>
+        <member name="F:ProjektZeiterfassung.Model.Uebersicht._Von">
+            <summary>
+            Internes Hilfsfeld
+            </summary>
+        </member>
+        <member name="P:ProjektZeiterfassung.Model.Uebersicht.Von">
+            <summary>
+            Stellt die Eigenschaft für den Suchzeitraum Von für die Auflistung bereit
+            </summary>
+        </member>
+        <member name="F:ProjektZeiterfassung.Model.Uebersicht._Bis">
+            <summary>
+            Internes Hilfsfeld
+            </summary>
+        </member>
+        <member name="P:ProjektZeiterfassung.Model.Uebersicht.Bis">
+            <summary>
+            Stellt die Eigenschaft Bis für den Suchzeitraum für die Auflistung bereit
+            </summary>
+        </member>
+        <member name="F:ProjektZeiterfassung.Model.Uebersicht._Personalnummer">
+            <summary>
+            Internes Hilfsfeld
+            </summary>
+        </member>
+        <member name="P:ProjektZeiterfassung.Model.Uebersicht.Personalnummer">
+            <summary>
+            Stellt eine Eigenschaft für die Personalnummer bereit von Übersicht
+            </summary>
+        </member>
+        <member name="F:ProjektZeiterfassung.Model.Uebersicht._FullName">
+            <summary>
+            internes Hilfsfeld
+            </summary>
+        </member>
+        <member name="P:ProjektZeiterfassung.Model.Uebersicht.FullName">
+            <summary>
+            Stellt eine Eigenschaft für den vollen Namen der Übersicht bereit
+            </summary>
+        </member>
+        <member name="F:ProjektZeiterfassung.Model.Uebersicht._Wochensumme">
+            <summary>
+            Internes Hilfsfeld
+            </summary>
+        </member>
+        <member name="P:ProjektZeiterfassung.Model.Uebersicht.Wochensumme">
+            <summary>
+            Stellt die Eigenschaft für eine Wochensumme/Arbeitszeit von Übersicht bereit
+            </summary>
+        </member>
+        <member name="M:ProjektZeiterfassung.Model.Uebersicht.#ctor(ProjektZeiterfassung.Model.Mitarbeiter)">
+            <summary>
+            Konstruktor zur Übersichtsliste
+            </summary>
+            <param name="m">Mitarbeiter objekt</param>
+        </member>
+        <member name="M:ProjektZeiterfassung.Model.Uebersicht.GetFullName(System.String,System.String)">
+            <summary>
+            Methode zum Verketten von vor und Nachname
+            </summary>
+            <param name="vorname"></param>
+            <param name="nachname"></param>
+            <returns>Vor und Nachname Verkettet als string</returns>
+        </member>
+        <member name="T:ProjektZeiterfassung.Model.DatenErfolg">
+            <summary>
+            Listet die Erfolgsvarianten beim Speichern in der Datenbank auf.
+            </summary>
+        </member>
+        <member name="F:ProjektZeiterfassung.Model.DatenErfolg.Fehler">
+            <summary>
+            Bei der Aktion ist ein Problem aufgetreten.
+            </summary>
+        </member>
+        <member name="F:ProjektZeiterfassung.Model.DatenErfolg.Änderung">
+            <summary>
+            Der Datensatz wurde verändert.
+            </summary>
+        </member>
+        <member name="F:ProjektZeiterfassung.Model.DatenErfolg.NeuAnlage">
+            <summary>
+            Der Datensatz wurde neu angelegt.
+            </summary>
+        </member>
+        <member name="T:ProjektZeiterfassung.Model.ListeZeiterfassung">
+            <summary>
+            Stellt eine Klasse für eine Liste der Zeiterfassung bereit
+            </summary>
+        </member>
+        <member name="T:ProjektZeiterfassung.Model.Zeiterfassung">
+            <summary>
+            Stellt die Klasse für das Objekt einer Zeiterfassung bereit 
+            </summary>
+        </member>
+        <member name="F:ProjektZeiterfassung.Model.Zeiterfassung._ID">
+            <summary>
+            Internes Hilfsfeld
+            </summary>
+        </member>
+        <member name="P:ProjektZeiterfassung.Model.Zeiterfassung.ID">
+            <summary>
+            Stellt eine Eigenschaft für die Id einer Zeiterfassung bereit
+            </summary>
+        </member>
+        <member name="F:ProjektZeiterfassung.Model.Zeiterfassung._FK_Mitarbeiter_ID">
+            <summary>
+            Internes Hilfsfeld
+            </summary>
+        </member>
+        <member name="P:ProjektZeiterfassung.Model.Zeiterfassung.FK_Mitarbeiter_ID">
+            <summary>
+            Stellt eine Eigenschaft für FK_Mitarbeiter_Id von Zeiterfassung bereit
+            </summary>
+        </member>
+        <member name="F:ProjektZeiterfassung.Model.Zeiterfassung._TagesDatum">
+            <summary>
+            Internes Hilfsfeld
+            </summary>
+        </member>
+        <member name="P:ProjektZeiterfassung.Model.Zeiterfassung.TagesDatum">
+            <summary>
+            Stellt eine Eigenschaft für TagesDatum von Zeiterfassung bereit
+            </summary>
+        </member>
+        <member name="F:ProjektZeiterfassung.Model.Zeiterfassung._ArbeitsAnfang">
+            <summary>
+            Internes Hilfsfeld
+            </summary>
+        </member>
+        <member name="P:ProjektZeiterfassung.Model.Zeiterfassung.ArbeitsAnfang">
+            <summary>
+            Stellt eine Eigenschaft für ArbeitsAnfang von Zeiterfassung bereit
+            </summary>
+        </member>
+        <member name="F:ProjektZeiterfassung.Model.Zeiterfassung._PauseAnfang">
+            <summary>
+            Internes Hilfsfeld
+            </summary>
+        </member>
+        <member name="P:ProjektZeiterfassung.Model.Zeiterfassung.PauseAnfang">
+            <summary>
+            Stellt eine Eigenschaft von PauseAnfang von Zeiterfassung bereit
+            </summary>
+        </member>
+        <member name="F:ProjektZeiterfassung.Model.Zeiterfassung._PauseEnde">
+            <summary>
+            Internes Hilfsfeld
+            </summary>
+        </member>
+        <member name="P:ProjektZeiterfassung.Model.Zeiterfassung.PauseEnde">
+            <summary>
+            Stellt eine Eigenschaft von PauseEnde von Zeiterfassung bereit
+            </summary>
+        </member>
+        <member name="F:ProjektZeiterfassung.Model.Zeiterfassung._ArbeitsEnde">
+            <summary>
+            Internes Hilfsfeld
+            </summary>
+        </member>
+        <member name="P:ProjektZeiterfassung.Model.Zeiterfassung.ArbeitsEnde">
+            <summary>
+            Stellt eine Eigenschaft von ArbeitsEnde von Zeiterfassung bereit
+            </summary>
+        </member>
+        <member name="F:ProjektZeiterfassung.Model.Zeiterfassung._TagesIstZeit">
+            <summary>
+            Internes Hilfsfeld
+            </summary>
+        </member>
+        <member name="P:ProjektZeiterfassung.Model.Zeiterfassung.TagesIstZeit">
+            <summary>
+            Stellt eine Eigenschaft von TagesIstZeit von Zeiterfassung bereit
+            </summary>
+        </member>
+        <member name="M:ProjektZeiterfassung.Model.Zeiterfassung.SpeichereZeit(ProjektZeiterfassung.Model.Zeiterfassung)">
+            <summary>
+            Speichert die Daten zur Person in die Datenbank
+            </summary>
+            <param name="p">Objekt der Zeiterfassung</param>
+            <returns>int ob gespeichert(1) oder nicht(0)</returns>
+        </member>
+        <member name="M:ProjektZeiterfassung.Program.Main">
+            <summary>
+            Der Haupteinstiegspunkt für die Anwendung.
+            </summary>
+        </member>
+        <member name="M:ProjektZeiterfassung.Properties.Settings.#ctor">
+            <summary>
+            Ändert die Properties einstellungen
+            </summary>
+        </member>
+        <member name="T:ProjektZeiterfassung.Properties.Resources">
+            <summary>
+              Eine stark typisierte Ressourcenklasse zum Suchen von lokalisierten Zeichenfolgen usw.
+            </summary>
+        </member>
+        <member name="P:ProjektZeiterfassung.Properties.Resources.ResourceManager">
+            <summary>
+              Gibt die zwischengespeicherte ResourceManager-Instanz zurück, die von dieser Klasse verwendet wird.
+            </summary>
+        </member>
+        <member name="P:ProjektZeiterfassung.Properties.Resources.Culture">
+            <summary>
+              Überschreibt die CurrentUICulture-Eigenschaft des aktuellen Threads für alle
+              Ressourcenlookups, die diese stark typisierte Ressourcenklasse verwenden.
+            </summary>
+        </member>
+        <member name="M:ProjektZeiterfassung.View.DatenbankEinstellen.#ctor">
+            <summary>
+            Kostruktor erstellt das Windowsfenster Datenbank Einstellen
+            </summary>
+        </member>
+        <member name="M:ProjektZeiterfassung.View.DatenbankEinstellen.BtnSaveDbSettings_Click(System.Object,System.EventArgs)">
+            <summary>
+            Methode die beim Button Klick eingegebene Daten in die App.Config schreibt und wieder Zurückgibt
+            </summary>
+            <param name="sender">Objekt SetDbVerbindung</param>
+            <param name="e"></param>
+        </member>
+        <member name="F:ProjektZeiterfassung.View.DatenbankEinstellen.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:ProjektZeiterfassung.View.DatenbankEinstellen.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:ProjektZeiterfassung.View.DatenbankEinstellen.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:ProjektZeiterfassung.View.Mainpanel.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:ProjektZeiterfassung.View.Mainpanel.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:ProjektZeiterfassung.View.Mainpanel.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+    </members>
+</doc>
