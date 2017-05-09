@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.AnmeldePanel = new System.Windows.Forms.Panel();
             this.BtnAnmeldung = new System.Windows.Forms.Button();
             this.TxtPersonalNummer = new System.Windows.Forms.TextBox();
@@ -39,9 +40,14 @@
             this.BtnÜbersicht = new System.Windows.Forms.Button();
             this.BtnZeiterfassung = new System.Windows.Forms.Button();
             this.AuswahlLabel = new System.Windows.Forms.Label();
+            this.mitarbeiterBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.zEIT2017DataSet = new ProjektZeiterfassung.ZEIT2017DataSet();
+            this.mitarbeiterTableAdapter = new ProjektZeiterfassung.ZEIT2017DataSetTableAdapters.MitarbeiterTableAdapter();
             this.AnmeldePanel.SuspendLayout();
             this.PersonenDatenPanel.SuspendLayout();
             this.BedienungsPanel.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.mitarbeiterBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.zEIT2017DataSet)).BeginInit();
             this.SuspendLayout();
             // 
             // AnmeldePanel
@@ -124,7 +130,7 @@
             this.BedienungsPanel.Controls.Add(this.AuswahlLabel);
             this.BedienungsPanel.Location = new System.Drawing.Point(9, 158);
             this.BedienungsPanel.Name = "BedienungsPanel";
-            this.BedienungsPanel.Size = new System.Drawing.Size(480, 193);
+            this.BedienungsPanel.Size = new System.Drawing.Size(480, 202);
             this.BedienungsPanel.TabIndex = 2;
             // 
             // BtnÜbersicht
@@ -159,12 +165,26 @@
             this.AuswahlLabel.TabIndex = 2;
             this.AuswahlLabel.Text = "Auswahl";
             // 
+            // mitarbeiterBindingSource
+            // 
+            this.mitarbeiterBindingSource.DataMember = "Mitarbeiter";
+            this.mitarbeiterBindingSource.DataSource = this.zEIT2017DataSet;
+            // 
+            // zEIT2017DataSet
+            // 
+            this.zEIT2017DataSet.DataSetName = "ZEIT2017DataSet";
+            this.zEIT2017DataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            // 
+            // mitarbeiterTableAdapter
+            // 
+            this.mitarbeiterTableAdapter.ClearBeforeFill = true;
+            // 
             // Mainpanel
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.PeachPuff;
-            this.ClientSize = new System.Drawing.Size(494, 356);
+            this.ClientSize = new System.Drawing.Size(494, 360);
             this.Controls.Add(this.BedienungsPanel);
             this.Controls.Add(this.PersonenDatenPanel);
             this.Controls.Add(this.AnmeldePanel);
@@ -172,12 +192,15 @@
             this.Name = "Mainpanel";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Hauptfenster Zeiterfassung";
+            this.Load += new System.EventHandler(this.Mainpanel_Load);
             this.AnmeldePanel.ResumeLayout(false);
             this.AnmeldePanel.PerformLayout();
             this.PersonenDatenPanel.ResumeLayout(false);
             this.PersonenDatenPanel.PerformLayout();
             this.BedienungsPanel.ResumeLayout(false);
             this.BedienungsPanel.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.mitarbeiterBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.zEIT2017DataSet)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -195,5 +218,8 @@
         private System.Windows.Forms.Button BtnÜbersicht;
         private System.Windows.Forms.Button BtnZeiterfassung;
         private System.Windows.Forms.Label AuswahlLabel;
+        private ZEIT2017DataSet zEIT2017DataSet;
+        private System.Windows.Forms.BindingSource mitarbeiterBindingSource;
+        private ZEIT2017DataSetTableAdapters.MitarbeiterTableAdapter mitarbeiterTableAdapter;
     }
 }

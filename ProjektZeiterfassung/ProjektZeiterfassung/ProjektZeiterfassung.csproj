@@ -34,6 +34,8 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
     <Reference Include="System" />
     <Reference Include="System.configuration" />
     <Reference Include="System.Core" />
@@ -46,6 +48,7 @@
     <Reference Include="System.Net.Http" />
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
+    <Reference Include="WindowsBase" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Model\Datenbankverbindung.cs" />
@@ -68,6 +71,28 @@
     <Compile Include="View\Mainpanel.Designer.cs">
       <DependentUpon>Mainpanel.cs</DependentUpon>
     </Compile>
+    <Compile Include="View\Zeiterfassung.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\Zeiterfassung.Designer.cs">
+      <DependentUpon>Zeiterfassung.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\Zeituebersicht.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\Zeituebersicht.Designer.cs">
+      <DependentUpon>Zeituebersicht.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ZEIT2017DataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ZEIT2017DataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ZEIT2017DataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ZEIT2017DataSet1.xsd</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -83,6 +108,12 @@
     <EmbeddedResource Include="View\Mainpanel.resx">
       <DependentUpon>Mainpanel.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="View\Zeiterfassung.resx">
+      <DependentUpon>Zeiterfassung.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\Zeituebersicht.resx">
+      <DependentUpon>Zeituebersicht.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>PublicSettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -92,6 +123,28 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <None Include="ZEIT2017DataSet.xsc">
+      <DependentUpon>ZEIT2017DataSet.xsd</DependentUpon>
+    </None>
+    <None Include="ZEIT2017DataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ZEIT2017DataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ZEIT2017DataSet.xss">
+      <DependentUpon>ZEIT2017DataSet.xsd</DependentUpon>
+    </None>
+    <None Include="ZEIT2017DataSet1.xsc">
+      <DependentUpon>ZEIT2017DataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="ZEIT2017DataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ZEIT2017DataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ZEIT2017DataSet1.xss">
+      <DependentUpon>ZEIT2017DataSet1.xsd</DependentUpon>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

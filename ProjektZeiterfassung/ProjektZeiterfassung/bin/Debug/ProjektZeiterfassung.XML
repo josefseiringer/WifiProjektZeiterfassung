@@ -456,5 +456,169 @@
             the contents of this method with the code editor.
             </summary>
         </member>
+        <member name="F:ProjektZeiterfassung.View.Zeiterfassung.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:ProjektZeiterfassung.View.Zeiterfassung.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:ProjektZeiterfassung.View.Zeiterfassung.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:ProjektZeiterfassung.View.Zeituebersicht.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:ProjektZeiterfassung.View.Zeituebersicht.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:ProjektZeiterfassung.View.Zeituebersicht.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:ProjektZeiterfassung.ZEIT2017DataSet">
+             <summary>
+            Represents a strongly typed in-memory cache of data.
+            </summary>
+        </member>
+        <member name="T:ProjektZeiterfassung.ZEIT2017DataSet.MitarbeiterDataTable">
+             <summary>
+            Represents the strongly named DataTable class.
+            </summary>
+        </member>
+        <member name="T:ProjektZeiterfassung.ZEIT2017DataSet.MitarbeiterRow">
+             <summary>
+            Represents strongly named DataRow class.
+            </summary>
+        </member>
+        <member name="T:ProjektZeiterfassung.ZEIT2017DataSet.MitarbeiterRowChangeEvent">
+             <summary>
+            Row event argument class
+            </summary>
+        </member>
+        <member name="T:ProjektZeiterfassung.ZEIT2017DataSetTableAdapters.MitarbeiterTableAdapter">
+             <summary>
+            Represents the connection and commands used to retrieve and save data.
+            </summary>
+        </member>
+        <member name="T:ProjektZeiterfassung.ZEIT2017DataSetTableAdapters.TableAdapterManager">
+             <summary>
+            TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+            </summary>
+        </member>
+        <member name="M:ProjektZeiterfassung.ZEIT2017DataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(ProjektZeiterfassung.ZEIT2017DataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+             <summary>
+            Update rows in top-down order.
+            </summary>
+        </member>
+        <member name="M:ProjektZeiterfassung.ZEIT2017DataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(ProjektZeiterfassung.ZEIT2017DataSet,System.Collections.Generic.List{System.Data.DataRow})">
+             <summary>
+            Insert rows in top-down order.
+            </summary>
+        </member>
+        <member name="M:ProjektZeiterfassung.ZEIT2017DataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(ProjektZeiterfassung.ZEIT2017DataSet,System.Collections.Generic.List{System.Data.DataRow})">
+             <summary>
+            Delete rows in bottom-up order.
+            </summary>
+        </member>
+        <member name="M:ProjektZeiterfassung.ZEIT2017DataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+             <summary>
+            Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+            </summary>
+        </member>
+        <member name="M:ProjektZeiterfassung.ZEIT2017DataSetTableAdapters.TableAdapterManager.UpdateAll(ProjektZeiterfassung.ZEIT2017DataSet)">
+             <summary>
+            Update all changes to the dataset.
+            </summary>
+        </member>
+        <member name="T:ProjektZeiterfassung.ZEIT2017DataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+             <summary>
+            Update Order Option
+            </summary>
+        </member>
+        <member name="T:ProjektZeiterfassung.ZEIT2017DataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+             <summary>
+            Used to sort self-referenced table's rows
+            </summary>
+        </member>
+        <member name="T:ProjektZeiterfassung.ZEIT2017DataSet1">
+             <summary>
+            Represents a strongly typed in-memory cache of data.
+            </summary>
+        </member>
+        <member name="T:ProjektZeiterfassung.ZEIT2017DataSet1.MitarbeiterDataTable">
+             <summary>
+            Represents the strongly named DataTable class.
+            </summary>
+        </member>
+        <member name="T:ProjektZeiterfassung.ZEIT2017DataSet1.MitarbeiterRow">
+             <summary>
+            Represents strongly named DataRow class.
+            </summary>
+        </member>
+        <member name="T:ProjektZeiterfassung.ZEIT2017DataSet1.MitarbeiterRowChangeEvent">
+             <summary>
+            Row event argument class
+            </summary>
+        </member>
+        <member name="T:ProjektZeiterfassung.ZEIT2017DataSet1TableAdapters.MitarbeiterTableAdapter">
+             <summary>
+            Represents the connection and commands used to retrieve and save data.
+            </summary>
+        </member>
+        <member name="T:ProjektZeiterfassung.ZEIT2017DataSet1TableAdapters.TableAdapterManager">
+             <summary>
+            TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+            </summary>
+        </member>
+        <member name="M:ProjektZeiterfassung.ZEIT2017DataSet1TableAdapters.TableAdapterManager.UpdateUpdatedRows(ProjektZeiterfassung.ZEIT2017DataSet1,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+             <summary>
+            Update rows in top-down order.
+            </summary>
+        </member>
+        <member name="M:ProjektZeiterfassung.ZEIT2017DataSet1TableAdapters.TableAdapterManager.UpdateInsertedRows(ProjektZeiterfassung.ZEIT2017DataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+             <summary>
+            Insert rows in top-down order.
+            </summary>
+        </member>
+        <member name="M:ProjektZeiterfassung.ZEIT2017DataSet1TableAdapters.TableAdapterManager.UpdateDeletedRows(ProjektZeiterfassung.ZEIT2017DataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+             <summary>
+            Delete rows in bottom-up order.
+            </summary>
+        </member>
+        <member name="M:ProjektZeiterfassung.ZEIT2017DataSet1TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+             <summary>
+            Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+            </summary>
+        </member>
+        <member name="M:ProjektZeiterfassung.ZEIT2017DataSet1TableAdapters.TableAdapterManager.UpdateAll(ProjektZeiterfassung.ZEIT2017DataSet1)">
+             <summary>
+            Update all changes to the dataset.
+            </summary>
+        </member>
+        <member name="T:ProjektZeiterfassung.ZEIT2017DataSet1TableAdapters.TableAdapterManager.UpdateOrderOption">
+             <summary>
+            Update Order Option
+            </summary>
+        </member>
+        <member name="T:ProjektZeiterfassung.ZEIT2017DataSet1TableAdapters.TableAdapterManager.SelfReferenceComparer">
+             <summary>
+            Used to sort self-referenced table's rows
+            </summary>
+        </member>
     </members>
 </doc>

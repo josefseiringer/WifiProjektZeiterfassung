@@ -93,5 +93,15 @@ namespace ProjektZeiterfassung.Properties {
                 this["SqlServer"] = value;
             }
         }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
+        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=.\\SQLEXPRESS;Initial Catalog=ZEIT2017;Integrated Security=True")]
+        public string ZEIT2017ConnectionString {
+            get {
+                return ((string)(this["ZEIT2017ConnectionString"]));
+            }
+        }
     }
 }
