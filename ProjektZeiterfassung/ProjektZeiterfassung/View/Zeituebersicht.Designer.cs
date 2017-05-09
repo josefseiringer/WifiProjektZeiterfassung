@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Zeituebersicht));
             this.BtnZurZeiterfassung = new System.Windows.Forms.Button();
             this.TxtAnfangsdatum = new System.Windows.Forms.TextBox();
             this.BtnSuche = new System.Windows.Forms.Button();
@@ -223,6 +224,7 @@
             this.Controls.Add(this.TxtAnfangsdatum);
             this.Controls.Add(this.BtnSuche);
             this.Controls.Add(this.BtnZurZeiterfassung);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Zeituebersicht";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Zeituebersicht";

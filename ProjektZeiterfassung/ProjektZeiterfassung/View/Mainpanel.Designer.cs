@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Mainpanel));
             this.AnmeldePanel = new System.Windows.Forms.Panel();
             this.BtnAnmeldung = new System.Windows.Forms.Button();
             this.TxtPersonalNummer = new System.Windows.Forms.TextBox();
@@ -189,6 +190,7 @@
             this.Controls.Add(this.PersonenDatenPanel);
             this.Controls.Add(this.AnmeldePanel);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Mainpanel";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Hauptfenster Zeiterfassung";

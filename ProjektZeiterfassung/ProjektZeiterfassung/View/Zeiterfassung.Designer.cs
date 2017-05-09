@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Zeiterfassung));
             this.AnmeldePanel = new System.Windows.Forms.Panel();
             this.BedienungsPanel = new System.Windows.Forms.Panel();
             this.BtnZeitUebersicht = new System.Windows.Forms.Button();
@@ -211,6 +212,7 @@
             this.ClientSize = new System.Drawing.Size(624, 364);
             this.Controls.Add(this.AnmeldePanel);
             this.Controls.Add(this.BedienungsPanel);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Zeiterfassung";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Zeiterfassung";
