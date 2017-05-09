@@ -14,3 +14,11 @@ C:\Users\digitalman\Source\Repos\WifiProjektZeiterfassung\ProjektZeiterfassung\S
 C:\Users\digitalman\Source\Repos\WifiProjektZeiterfassung\ProjektZeiterfassung\SetDbVerbindung\obj\Debug\SetDbVerbindung.csprojResolveAssemblyReference.cache
 C:\Users\digitalman\Source\Repos\WifiProjektZeiterfassung\ProjektZeiterfassung\SetDbVerbindung\obj\Debug\SetDbVerbindung.Properties.Resources.resources
 C:\Users\digitalman\Source\Repos\WifiProjektZeiterfassung\ProjektZeiterfassung\SetDbVerbindung\obj\Debug\SetDbVerbindung.csproj.GenerateResource.Cache
+C:\Users\E11008\Source\Repos\WifiProjektZeiterfassung\ProjektZeiterfassung\SetDbVerbindung\bin\Debug\SetDbVerbindung.exe.config
+C:\Users\E11008\Source\Repos\WifiProjektZeiterfassung\ProjektZeiterfassung\SetDbVerbindung\obj\Debug\SetDbVerbindung.exe
+C:\Users\E11008\Source\Repos\WifiProjektZeiterfassung\ProjektZeiterfassung\SetDbVerbindung\obj\Debug\SetDbVerbindung.pdb
+C:\Users\E11008\Source\Repos\WifiProjektZeiterfassung\ProjektZeiterfassung\SetDbVerbindung\bin\Debug\SetDbVerbindung.exe
+C:\Users\E11008\Source\Repos\WifiProjektZeiterfassung\ProjektZeiterfassung\SetDbVerbindung\bin\Debug\SetDbVerbindung.pdb
+C:\Users\E11008\Source\Repos\WifiProjektZeiterfassung\ProjektZeiterfassung\SetDbVerbindung\obj\Debug\SetDbVerbindung.csprojResolveAssemblyReference.cache
+C:\Users\E11008\Source\Repos\WifiProjektZeiterfassung\ProjektZeiterfassung\SetDbVerbindung\obj\Debug\SetDbVerbindung.Properties.Resources.resources
+C:\Users\E11008\Source\Repos\WifiProjektZeiterfassung\ProjektZeiterfassung\SetDbVerbindung\obj\Debug\SetDbVerbindung.csproj.GenerateResource.Cache

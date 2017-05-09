@@ -13,3 +13,14 @@ C:\Users\digitalman\Source\Repos\WifiProjektZeiterfassung\ProjektZeiterfassung\P
 C:\Users\digitalman\Source\Repos\WifiProjektZeiterfassung\ProjektZeiterfassung\ProjektZeiterfassung\bin\Debug\ProjektZeiterfassung.XML
 C:\Users\digitalman\Source\Repos\WifiProjektZeiterfassung\ProjektZeiterfassung\ProjektZeiterfassung\obj\Debug\ProjektZeiterfassung.exe
 C:\Users\digitalman\Source\Repos\WifiProjektZeiterfassung\ProjektZeiterfassung\ProjektZeiterfassung\obj\Debug\ProjektZeiterfassung.pdb
+C:\Users\E11008\Source\Repos\WifiProjektZeiterfassung\ProjektZeiterfassung\ProjektZeiterfassung\bin\Debug\ProjektZeiterfassung.exe.config
+C:\Users\E11008\Source\Repos\WifiProjektZeiterfassung\ProjektZeiterfassung\ProjektZeiterfassung\bin\Debug\ProjektZeiterfassung.XML
+C:\Users\E11008\Source\Repos\WifiProjektZeiterfassung\ProjektZeiterfassung\ProjektZeiterfassung\obj\Debug\ProjektZeiterfassung.exe
+C:\Users\E11008\Source\Repos\WifiProjektZeiterfassung\ProjektZeiterfassung\ProjektZeiterfassung\obj\Debug\ProjektZeiterfassung.pdb
+C:\Users\E11008\Source\Repos\WifiProjektZeiterfassung\ProjektZeiterfassung\ProjektZeiterfassung\bin\Debug\ProjektZeiterfassung.exe
+C:\Users\E11008\Source\Repos\WifiProjektZeiterfassung\ProjektZeiterfassung\ProjektZeiterfassung\bin\Debug\ProjektZeiterfassung.pdb
+C:\Users\E11008\Source\Repos\WifiProjektZeiterfassung\ProjektZeiterfassung\ProjektZeiterfassung\obj\Debug\ProjektZeiterfassung.csprojResolveAssemblyReference.cache
+C:\Users\E11008\Source\Repos\WifiProjektZeiterfassung\ProjektZeiterfassung\ProjektZeiterfassung\obj\Debug\ProjektZeiterfassung.Properties.Resources.resources
+C:\Users\E11008\Source\Repos\WifiProjektZeiterfassung\ProjektZeiterfassung\ProjektZeiterfassung\obj\Debug\ProjektZeiterfassung.View.DatenbankEinstellen.resources
+C:\Users\E11008\Source\Repos\WifiProjektZeiterfassung\ProjektZeiterfassung\ProjektZeiterfassung\obj\Debug\ProjektZeiterfassung.View.Mainpanel.resources
+C:\Users\E11008\Source\Repos\WifiProjektZeiterfassung\ProjektZeiterfassung\ProjektZeiterfassung\obj\Debug\ProjektZeiterfassung.csproj.GenerateResource.Cache

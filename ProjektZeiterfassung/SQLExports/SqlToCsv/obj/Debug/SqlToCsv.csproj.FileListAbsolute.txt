@@ -1,0 +1,7 @@
+c:\users\florian.zauner\documents\visual studio 2015\Projects\SQLExports\SqlToCsv\bin\Debug\SqlToCsv.exe.config
+c:\users\florian.zauner\documents\visual studio 2015\Projects\SQLExports\SqlToCsv\bin\Debug\SqlToCsv.exe
+c:\users\florian.zauner\documents\visual studio 2015\Projects\SQLExports\SqlToCsv\bin\Debug\SqlToCsv.pdb
+c:\users\florian.zauner\documents\visual studio 2015\Projects\SQLExports\SqlToCsv\bin\Debug\System.Data.SQLite.dll
+c:\users\florian.zauner\documents\visual studio 2015\Projects\SQLExports\SqlToCsv\obj\Debug\SqlToCsv.csprojResolveAssemblyReference.cache
+c:\users\florian.zauner\documents\visual studio 2015\Projects\SQLExports\SqlToCsv\obj\Debug\SqlToCsv.exe
+c:\users\florian.zauner\documents\visual studio 2015\Projects\SQLExports\SqlToCsv\obj\Debug\SqlToCsv.pdb

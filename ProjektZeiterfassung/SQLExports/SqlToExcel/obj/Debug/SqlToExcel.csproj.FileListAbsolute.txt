@@ -1,0 +1,6 @@
+c:\users\florian.zauner\documents\visual studio 2015\Projects\SQLExports\SqlToExcel\bin\Debug\SqlToExcel.exe.config
+c:\users\florian.zauner\documents\visual studio 2015\Projects\SQLExports\SqlToExcel\obj\Debug\SqlToExcel.csprojResolveAssemblyReference.cache
+c:\users\florian.zauner\documents\visual studio 2015\Projects\SQLExports\SqlToExcel\bin\Debug\SqlToExcel.exe
+c:\users\florian.zauner\documents\visual studio 2015\Projects\SQLExports\SqlToExcel\bin\Debug\SqlToExcel.pdb
+c:\users\florian.zauner\documents\visual studio 2015\Projects\SQLExports\SqlToExcel\obj\Debug\SqlToExcel.exe
+c:\users\florian.zauner\documents\visual studio 2015\Projects\SQLExports\SqlToExcel\obj\Debug\SqlToExcel.pdb
